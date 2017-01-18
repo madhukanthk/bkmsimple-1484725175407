@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bkmsimple
+  host: bkmsimple
+  disk_quota: 1024M
+  services:
+  - bkmsimple-cloudantNoSQLDB
+  - bkmsimple-iotf-service
